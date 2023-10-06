@@ -1,0 +1,6 @@
+[submodule "spring-boot-app"]
+	path = spring-boot-app
+	url = https://github.com/WillHCode/estage_Spring.git
+[submodule "react-app"]
+	path = react-app
+	url = https://github.com/WillHCode/estage-React.git
