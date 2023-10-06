@@ -1,54 +1,53 @@
 # e-Stage
-Projet Web Avancé Bac3
+Bac3 Advanced Web Project
 
-# Présentation
-## Description de l’application
-  L’application nommé « e-Stage » est une plateforme en ligne (au format web) à destination des étudiants et entreprise désireux de suivre ou proposer des stages. Sur cette plateforme il sera possible de créer un compte, voir/créer des offres de formations, communiquer par messages aux sujets des offres en ligne, réserver des entretiens, ….
-Cette plateforme permettra aux deux intervenant, de structuré et rassembler les interactions en lien avec les offres de stage, sur un seul site web. 
-#	Détails
-##	Contraintes techniques
-###	Front-End
-  L’interface utilisateur sera créer en utilisant le **Framework React** avec **Typescript** en respectant une *structure MVC*
-On distinguera 2 types de présentation de la page en fonction de si on est connecté en tant que client (chercheur de stage) ou d’une entreprise (proposeur de stage)
-###	Back-End
-  Le service web sera développer en Java utilisant le **Framework Spring Boot**. La structure devra strictement respecter **l’architecture hexagonale**.
-Pour la base de données principale, elle sera au format **MySQL**. La base de données en temps réel du service de messagerie sera faite en utilisant **Firebase**. Ces 2 base de données communiqueront avec le service en utilisant une API sécurisé.
-##	Fonctionnalités
-###	Fonctionnalités communes
--	Création d’un compte (via formulaire web)
--	Rechercher des offres de stage (+ filtrage avec système de tag)
--	Chat en direct via messagerie
--	Système de notification
--	Modifier données personnels du compte
--	Calendrier reprenant les entretiens enregistrés
--	Récupérer un historique 
-2.2.2	Client
--	S’enregistrer sur une offre de stage
--	Uploader son CV (format PDF) sur son profil
-2.2.3	Entreprise 
--	Créer une offre de stage
--	Sélectionner des postulant 
+# Presentation
+## Description of the application
+  The application called «e-Stage» is an online platform (in web format) for students and companies wishing to follow or offer internships. \
+  On this platform it will be possible to create an account, see/create training offers, communicate by messages to the subjects of online offers, book interviews….\
+  This platform will allow both stakeholders to structure and gather interactions related to internship offers, on a single website. 
+#  Details
+##  Technical Constraints
+###  Front-End
+  The user interface will be created using the **Framework React** with **Typescript** respecting a *MVC structure*
+We will distinguish 2 types of presentation of the page depending on whether we are connected as a client (internship researcher) or a company (internship advertiser)
+###  Back-End
+  The web service will be developed in Java using the **Framework Spring Boot**. The structure must strictly respect **the hexagonal architecture**.
+For the main database, it will be in **MySQL** format. The real-time database of the messaging service will be made using **Firebase**. These 2 databases will communicate with the service using a secure API.
+##  Features
+###  Common Features
+-  Creation of an account (via web form)
+-  Search internship offers (+ filtering with tag system)
+-  Live chat via messaging
+-  Notification system
+-  Change personal account details
+-  Calendar of recorded interviews
+-  Retrieve a history 
+-  Register for an internship offer
+-  Upload your CV (PDF format) to your profile
+-  Create an internship offer
+-  Select applicants 
 
-##	SCRUMB
-  Il ne sera pas détaillé à quel moment la base de données doit-elle être implémenté, ni autre services ou détails trop précis, la liberté est laissée au bon sens des développeurs. 
-L’ordre des priorités trivial est le suivant :
-1.	Fonctionnalité Communes
-2.	Client & Entreprise
+##  SCRUMB
+  It will not be detailed when the database, should it be implemented, or other services or details too precise, the freedom is left to the good sense of the developers. 
+The order of trivial priorities is as follows:
+1.  Common Functionality
+2.  Client & Enterprise
    
-L’ordre détailler de développement suggérer de manière chronologique est le suivant :
-1.	Création d’un compte & Login
-2.	Modification de données personnels
-3.	Création d’un formulaire Web pour les inscription et login
-4.	Création d’offre de stage
-5.	Enregistrement pour un stage
-6.	Rechercher un stage (système de filtre peut-être implémenter plus tard en fonction de l’avancement du projet)
-7.	Upload du CV au format PDF
-8.	Création/Récupération d’un historique
-9.	Sélectionner des postulant
-10.	Notification & mail
-11.	Chat en direct
-12.	Calendrier
+The suggested detailed chronological order of development is as follows:
+1.  Account Creation and Login
+2.  Modification of Personal Data
+3.  Create a web form for registration and login
+4.  Creation of internship offer
+5.  Registration for Internship
+6.  Search for an internship (filter system may be implemented later depending on project progress)
+7.  Upload CV to PDF
+8.  Create/Retrieve History
+9.  Select Applicants
+10.  Notification and Email
+11.  Live Chat
+12.  Schedule
     
-**A NOTER :**
--	Les fonctionnalités 1 -> 5, sont **primordiales** afin d’avoir le minimum requis pour un semblant d’application fonctionnel.
--	Les ordres des autres fonctionnalités sont globalement Inversible, cette liste n’est qu’une suggestion. Il est également possible que certaines de ces fonctionnalités ne soient pas développées en fonction des délais à respecter.
+**NOTE:**
+-  Features 1 -> 5, are **essential** in order to have the minimum required for a semblance of functional application.
+-  The orders of the other features are globally Invertible, this list is only a suggestion. It is also possible that some of these features are not developed according to the deadlines to be respected.
