@@ -1,6 +1,12 @@
 # e-Stage
 Bac3 Advanced Web Project
 
+# Download the project
+Run the following command
+```git
+git clone --recurse-submodules https://github.com/WillHCode/e-Stage.git
+```
+
 # Presentation
 ## Description of the application
   The application called «e-Stage» is an online platform (in web format) for students and companies wishing to follow or offer internships. \
